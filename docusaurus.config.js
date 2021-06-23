@@ -85,13 +85,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/rusterlium/web/edit/master/website/',
+            'https://github.com/rusterlium/web/edit/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/rusterlium/web/edit/master/website/blog/',
+            'https://github.com/rusterlium/web/edit/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
