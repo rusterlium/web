@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Resources
 
-Resources are often used when you want to return a Rust resource into Elixir without needing to convert the data into a term. This can be useful in a wire variety of cases, some examples:
+Resources are often used when you want to return a Rust resource into Elixir without needing to convert the data into a term. This can be useful in a wide variety of cases, some examples:
 
 * Wrapping a native library. Native libraries often contain structs that methods are called on to perform manipulations. Those structs can be exposed as a Resource, and the methods can be exposed as separate NIFs.
 * Implementing an efficient data structure natively, for use in Elixir. You would wrap your data structure in a resource, and write NIFs to manipulate the structure.
